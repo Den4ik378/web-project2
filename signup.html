@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Реєстрація</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/image/logo.PNG" alt="logo" />
+      </div>
+      <div class="nav">
+        <a href="index.html">Головна</a>
+      </div>
+    </header>
+    <main id="sign_up">
+      <form id="signForm">
+        <h2>Реєстрація</h2>
+
+        <div class="contact">
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Введіть Ваш Email"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label>Пароль:</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Введіть Ваш пароль"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label>Прізвище:</label>
+          <input
+            type="text"
+            name="last_name"
+            placeholder="Введіть Ваше прізвище"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label>Ім'я:</label>
+          <input
+            type="text"
+            name="first_name"
+            placeholder="Введіть Ваше ім'я"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label>По батькові:</label>
+          <input
+            type="text"
+            name="middle_name"
+            placeholder="Введіть Ваше по-батькові"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label>Дата народження:</label>
+          <input type="date" name="birthdate" required /><br />
+        </div>
+
+        <div class="contact">
+          <label>Група:</label>
+          <select name="group" required>
+            <option value="group1">ІА-21</option>
+            <option value="group2">ІА-23</option>
+            <option value="group3">ІА-24</option></select
+          ><br />
+        </div>
+
+        <div class="contact">
+          <label>Завантажити файл:</label>
+          <input
+            type="file"
+            name="file"
+            accept=".pdf, .doc, .docx"
+            required
+          /><br />
+        </div>
+
+        <div class="contact">
+          <button type="submit">Відправити</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="login_contacts">
+        <a href="tel: +380637117208" class="log_cont">
+          <i class="fa fa-phone-square" aria-hidden="true"></i>
+        </a>
+        <a href="mailto: dennatarov0129@gmail.com" class="log_cont">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a href="tg://resolve?domain=eccoor" class="log_cont">
+          <i class="fa fa-telegram" aria-hidden="true"></i>
+        </a>
+        <a href="whatsapp://send?phone=+380637117208" class="log_cont">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
